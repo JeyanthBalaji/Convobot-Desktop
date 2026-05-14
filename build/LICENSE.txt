@@ -1,0 +1,54 @@
+ConvoBot Clinic — End User License Agreement
+
+Copyright (c) 2026 RiteTech Technologies. All rights reserved.
+
+This software is licensed, not sold, by RiteTech Technologies to the
+licensed end user on the terms set out below.
+
+1. GRANT OF LICENSE
+   Subject to your acceptance of this Agreement, RiteTech Technologies
+   grants you a non-exclusive, non-transferable license to install and
+   use ConvoBot Clinic ("the Software") on any number of computers
+   within your licensed clinic location for the duration of your
+   active subscription.
+
+2. RESTRICTIONS
+   You may NOT:
+   (a) reverse engineer, decompile, or disassemble the Software,
+       except to the extent expressly permitted by applicable law;
+   (b) modify, adapt, translate, or create derivative works based on
+       the Software;
+   (c) sub-license, sell, rent, lease, or otherwise transfer rights
+       to the Software;
+   (d) remove or alter any proprietary notices or labels.
+
+3. OWNERSHIP
+   The Software is owned by RiteTech Technologies and is protected by
+   copyright and other intellectual-property laws. You receive only
+   the right to use the Software as described in this Agreement.
+
+4. DATA & PRIVACY
+   Patient data entered through the Software is stored on servers
+   operated by RiteTech Technologies on behalf of the licensed clinic.
+   See our Privacy Policy for full details.
+
+5. UPDATES
+   The Software may automatically download and install updates to
+   improve functionality, security and reliability.
+
+6. NO WARRANTY
+   The Software is provided "as is" without warranty of any kind.
+   To the maximum extent permitted by law, RiteTech Technologies
+   disclaims all warranties, express or implied.
+
+7. LIMITATION OF LIABILITY
+   In no event will RiteTech Technologies be liable for any indirect,
+   incidental, special or consequential damages arising out of the use
+   of, or inability to use, the Software.
+
+8. TERMINATION
+   This license terminates automatically if you fail to comply with
+   its terms. Upon termination you must stop using the Software and
+   destroy all copies in your possession.
+
+By installing or using the Software, you accept these terms.

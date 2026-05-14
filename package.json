@@ -1,0 +1,76 @@
+{
+  "name": "convobot-clinic",
+  "productName": "ConvoBot Clinic",
+  "version": "1.0.0",
+  "description": "ConvoBot Clinic — Desktop application for clinic management",
+  "main": "src/main.js",
+  "author": {
+    "name": "RiteTech Technologies",
+    "email": "support@convobot.com"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win",
+    "publish": "electron-builder --win --publish always"
+  },
+  "devDependencies": {
+    "electron": "^32.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "dependencies": {
+    "electron-updater": "^6.3.0",
+    "electron-log": "^5.2.0"
+  },
+  "build": {
+    "appId": "com.ritetech.convobotclinic",
+    "productName": "ConvoBot Clinic",
+    "copyright": "Copyright © 2026 RiteTech Technologies",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "src/**/*",
+      "build/icon.*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "build/icon.ico",
+      "publisherName": "RiteTech Technologies",
+      "artifactName": "ConvoBot-Clinic-Setup-${version}.${ext}",
+      "signAndEditExecutable": false
+    },
+    "asar": true,
+    "electronUpdaterCompatibility": ">=2.16",
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ConvoBot Clinic",
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico",
+      "uninstallDisplayName": "ConvoBot Clinic",
+      "license": "build/LICENSE.txt",
+      "warningsAsErrors": false
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "JeyanthBalaji",
+        "repo": "Convobot-Desktop",
+        "private": true,
+        "releaseType": "release"
+      }
+    ]
+  }
+}
