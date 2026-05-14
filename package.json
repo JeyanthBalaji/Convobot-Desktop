@@ -1,7 +1,7 @@
 {
   "name": "convobot-clinic",
   "productName": "ConvoBot Clinic",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "ConvoBot Clinic — Desktop application for clinic management",
   "main": "src/main.js",
   "author": {
@@ -46,9 +46,9 @@
         }
       ],
       "icon": "build/icon.ico",
-      "publisherName": "RiteTech Technologies",
       "artifactName": "ConvoBot-Clinic-Setup-${version}.${ext}",
-      "signAndEditExecutable": false
+      "signAndEditExecutable": false,
+      "verifyUpdateCodeSignature": false
     },
     "asar": true,
     "electronUpdaterCompatibility": ">=2.16",

@@ -20,6 +20,13 @@ log.transports.file.level = 'info';
 autoUpdater.logger = log;
 autoUpdater.autoDownload = true;            // download silently in background
 autoUpdater.autoInstallOnAppQuit = true;    // install when user closes app
+
+// Skip code-signing verification until we buy a signing certificate.
+// (Without this, electron-updater refuses to install unsigned updates even
+// from a trusted source. Once we have a real cert, remove this line.)
+autoUpdater.disableWebInstaller = true;
+process.env.ELECTRON_UPDATER_ALLOW_UNSIGNED_UPDATES = '1';
+
 log.info('ConvoBot Clinic starting…');
 
 let mainWindow = null;
