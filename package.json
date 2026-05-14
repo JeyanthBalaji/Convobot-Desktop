@@ -1,7 +1,7 @@
 {
   "name": "convobot-clinic",
   "productName": "ConvoBot Clinic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ConvoBot Clinic — Desktop application for clinic management",
   "main": "src/main.js",
   "author": {
@@ -40,7 +40,9 @@
       "target": [
         {
           "target": "nsis",
-          "arch": ["x64"]
+          "arch": [
+            "x64"
+          ]
         }
       ],
       "icon": "build/icon.ico",
@@ -68,7 +70,7 @@
         "provider": "github",
         "owner": "JeyanthBalaji",
         "repo": "Convobot-Desktop",
-        "private": true,
+        "private": false,
         "releaseType": "release"
       }
     ]
