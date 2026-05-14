@@ -1,7 +1,7 @@
 {
   "name": "convobot-clinic",
   "productName": "ConvoBot Clinic",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "ConvoBot Clinic — Desktop application for clinic management",
   "main": "src/main.js",
   "author": {

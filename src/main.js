@@ -125,8 +125,7 @@ function buildAppMenu() {
               message: 'ConvoBot Clinic',
               detail:
                 `Version ${app.getVersion()}\n` +
-                'Copyright © 2026 RiteTech Technologies\n\n' +
-                `Connected to: ${APP_URL}`,
+                'Copyright © 2026 RiteTech Technologies',
               buttons: ['OK'],
             });
           },
